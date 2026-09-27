@@ -1,3 +1,29 @@
 {
-  "cleanUrls": true
+  "cleanUrls": true,
+  "rewrites": [
+    {
+      "source": "/servicios",
+      "destination": "/HTML/servicios.html"
+    },
+    {
+      "source": "/galeria",
+      "destination": "/HTML/galeria.html"
+    },
+    {
+      "source": "/nosotros",
+      "destination": "/HTML/nosotros.html"
+    },
+    {
+      "source": "/contactanos",
+      "destination": "/HTML/contactanos.html"
+    },
+    {
+      "source": "/desarrolladores",
+      "destination": "/HTML/desarrolladores.html"
+    },
+    {
+      "source": "/proyecto",
+      "destination": "/HTML/proyecto.html"
+    }
+  ]
 }
