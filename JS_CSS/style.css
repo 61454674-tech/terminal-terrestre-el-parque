@@ -119,9 +119,9 @@ a:focus-visible,button:focus-visible{outline:3px solid #bd820d;outline-offset:5p
 .service-card{border:1px solid var(--line);border-radius:12px;background:#fff;padding:30px}
 .service-card h3{font-family:Georgia,'Times New Roman',serif;font-size:1.6rem}
 .service-card .service-index{background:var(--wine);color:var(--gold);width:42px;height:42px;display:inline-flex;align-items:center;justify-content:center;border-radius:50%;font-size:.875rem;margin-bottom:24px}
-.service-card-cafe{display:flex;flex-direction:column}
-.service-card-cafe .service-photo{width:100%;height:178px;object-fit:cover;object-position:center 34%;border-radius:8px;margin:0 0 21px}
-.service-card-cafe .service-index{flex:none}
+.service-card-photo{display:flex;flex-direction:column}
+.service-card-photo .service-photo{width:100%;height:178px;object-fit:cover;object-position:center 34%;border-radius:8px;margin:0 0 21px}
+.service-card-photo .service-index{flex:none}
 .travel-note{background:#e7eee4;border:1px solid #d8e2d4;border-radius:10px;padding:24px}
 .travel-note>span{background:var(--wine);color:#fff}
 .gallery-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}
