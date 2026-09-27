@@ -3,27 +3,27 @@
   "rewrites": [
     {
       "source": "/servicios",
-      "destination": "/HTML/servicios.html"
+      "destination": "/HTML/servicios"
     },
     {
       "source": "/galeria",
-      "destination": "/HTML/galeria.html"
+      "destination": "/HTML/galeria"
     },
     {
       "source": "/nosotros",
-      "destination": "/HTML/nosotros.html"
+      "destination": "/HTML/nosotros"
     },
     {
       "source": "/contactanos",
-      "destination": "/HTML/contactanos.html"
+      "destination": "/HTML/contactanos"
     },
     {
       "source": "/desarrolladores",
-      "destination": "/HTML/desarrolladores.html"
+      "destination": "/HTML/desarrolladores"
     },
     {
       "source": "/proyecto",
-      "destination": "/HTML/proyecto.html"
+      "destination": "/HTML/proyecto"
     }
   ]
 }
