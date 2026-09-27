@@ -128,6 +128,7 @@ a:focus-visible,button:focus-visible{outline:3px solid #bd820d;outline-offset:5p
 .gallery-card{min-width:0;overflow:hidden;border:1px solid var(--line);border-radius:14px;background:#fff;box-shadow:0 9px 25px #18352612;transition:transform .2s ease,box-shadow .2s ease}
 .gallery-card:hover{transform:translateY(-4px);box-shadow:0 16px 32px #18352621}
 .gallery-card img{display:block;width:100%;height:225px;object-fit:cover}
+.gallery-card:nth-child(2) img{object-position:center 20%}
 .gallery-card:nth-child(6) img{object-position:center 32%}
 .gallery-card-copy{padding:23px 24px 27px}
 .gallery-card-copy span{display:block;color:var(--wine);font-size:.73rem;font-weight:800;letter-spacing:.16em}
