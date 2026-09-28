@@ -158,6 +158,10 @@ a:focus-visible,button:focus-visible{outline:3px solid #bd820d;outline-offset:5p
 .footer-project p{max-width:800px;margin:0 auto 12px;color:#d8e4dc;font-size:.9rem}
 .footer-project a{color:white;font-size:.875rem}
 .footer-bottom{display:block;border:0;padding:15px 0;background:#062219;text-align:center;color:#cddbd1;font-size:.75rem}
+.footer-bottom .container{display:flex;flex-direction:column;align-items:center;gap:10px}
+.footer-bottom p{margin:0;color:#cddbd1;font-size:inherit}
+.footer-bottom .footer-facebook{display:inline-flex;align-items:center;gap:8px;margin:0;padding:5px 12px;border-radius:999px;color:#fff;font-size:.9rem;font-weight:700;text-decoration:none;transition:background-color .2s ease,transform .2s ease}
+.footer-bottom .footer-facebook:hover,.footer-bottom .footer-facebook:focus-visible{background:#ffffff20;transform:translateY(-2px)}
 .project-intro{background:var(--light);padding:50px 0;color:var(--ink)}
 .project-intro .eyebrow{color:var(--wine)}
 .project-intro .lead,.project-intro .breadcrumb{color:var(--muted)}
